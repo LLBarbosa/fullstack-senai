@@ -53,7 +53,8 @@ for (i = 0; i < aluno.length; i++) {
 };
 
 media = media / aluno.length;
-console.log("A média dos alunos é " + media);
+console.log("A média dos alunos em Matemática é " + media);
+
 
 for (i = 0; i < aluno.length; i++) {
     if (aluno[i].matematica < 7 ) {
