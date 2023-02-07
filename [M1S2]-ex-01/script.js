@@ -54,3 +54,11 @@ for (i = 0; i < aluno.length; i++) {
 
 media = media / aluno.length;
 console.log("A média dos alunos é " + media);
+
+for (i = 0; i < aluno.length; i++) {
+    if (aluno[i].matematica < 7 ) {
+        console.log(`${aluno[i].nome} foi reprovado(a)`)
+    } else {
+        console.log(`${aluno[i].nome} foi aprovado(a)`)
+    }
+}
