@@ -1,0 +1,16 @@
+body {
+  background-color: beige;
+}
+
+
+#timer {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  button {
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: aquamarine;
+  }
