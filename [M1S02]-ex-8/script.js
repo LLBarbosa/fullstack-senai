@@ -2,8 +2,9 @@ let count = 1;
 let total = 0;
 let change = 0
 
-console.log("Lojas Tabajara");
+//console.log("Lojas Tabajara");
 function cashRegister() {
+console.log("Lojas Tabajara");  
 while (price != 0) {
     var price = parseFloat(prompt(`Produto ${count}`));
     console.log(`Produto ${count}: R$ ${price.toFixed(2)}`);
@@ -22,8 +23,10 @@ console.log(`Troco: R$ ${change.toFixed(2)} `);
 
 }
 
-
 cashRegister();
+    
+
+
 
 
 
