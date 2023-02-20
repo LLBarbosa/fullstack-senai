@@ -1,5 +1,3 @@
-console.log('Hello');
-
 let dailyTasks = ["Banho", "Dar comida para o cachorro", "Trabalho", "Atividade Física", "Sair com os amigos", "Fazer compras"];
 let task;
 
@@ -43,7 +41,7 @@ function addTasks(task) {
 //TESTES DE IMPLEMENTAÇÃO:
 //------------------------
 
-// console.log(lookForTasks("Trabalho"));
+//console.log(lookForTasks("Trabalho"));
 
 //changeTask("Banho", "Comer");
 //console.log(dailyTasks);
