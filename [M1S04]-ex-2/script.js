@@ -29,20 +29,21 @@ class Conta {
     }
 }
 
+// Testes:
+//-----------------------------------------------------
+const contaCorrente = new Conta(1200.00, "12345");
 
-const contaCorrente = new Conta(1000, "12345");
-
-console.log(contaCorrente.saldo); // 1000
+console.log(contaCorrente.saldo); // 1200
 
 contaCorrente.deposito(500, "12345"); // Depósito realizado com sucesso!
-console.log(contaCorrente.saldo); // 1500
+console.log(contaCorrente.saldo); // 1700
 
 contaCorrente.retirada(200, "45871"); // Senha incorreta, operação não permitida.
-console.log(contaCorrente.saldo); // 1500
+console.log(contaCorrente.saldo); // 1700
 
 contaCorrente.retirada(2000, "12345"); // Saldo insuficiente.
-console.log(contaCorrente.saldo); // 1500
+console.log(contaCorrente.saldo); // 1700
 
 contaCorrente.retirada(700, "12345"); // Retirada realizada com sucesso!
-console.log(contaCorrente.saldo); // 800
+console.log(contaCorrente.saldo); // 1000
 

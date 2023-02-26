@@ -27,6 +27,8 @@ class Worker extends Person {
         console.log(`Olá me chamo ${this.name} tenho ${this.age} anos e tenho ${this.height} de altura e sou ${this.occupation}.`);
     }
 }
-
-const person = new Worker('Laércio', 50, 1.78, 'Software Developer');
-person.apresentar();
+// Testes:
+const person1 = new Person('Laércio Luiz Barbosa', 50, 1.78);
+person1.apresentar();
+const person2 = new Worker('Marcelo Costa', 28, 1.81, 'analista de software');
+person2.apresentar();
