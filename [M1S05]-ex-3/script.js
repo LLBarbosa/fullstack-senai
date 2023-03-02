@@ -1,0 +1,1 @@
+const list = ['Pedro', 'José', 'Aderbal', 'Danilo', 'Luisa', 'Vitoria']
