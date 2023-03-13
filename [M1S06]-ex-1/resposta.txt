@@ -6,7 +6,4 @@ Qual a estrutura de projeto backend utilizada pelo node? Porque ela é bastante 
 Resposta:
 
    O node implementa sua estrutura de projeto back-end por módulos.
-   A estrutura modular facilita a reutilização do código, manutenção
-
-
-
+   A estrutura modular deixa o código mais organizado, reutilizável, escalável, testável e com a manutenção mais facilitada.

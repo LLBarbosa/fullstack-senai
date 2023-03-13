@@ -3,6 +3,7 @@ const router = express.Router();
 
 const usuariosController = require(`../controllers/usuariosController`)
 
+// exercício 6 - criando rotas da aplicação + middleware
 router.get('/usuarios', usuariosController.getAll);
 router.get('/usuarios/:id', usuariosController.getOne);
 router.post('/usuarios', usuariosController.validateRole, usuariosController.addUser);
