@@ -1,0 +1,12 @@
+[M1S06] Ex 1 - Estrutura de projeto
+------------------------------------
+
+Qual a estrutura de projeto backend utilizada pelo node? Porque ela é bastante recomendada?
+
+Resposta:
+
+   O node implementa sua estrutura de projeto back-end por módulos.
+   A estrutura modular facilita a reutilização do código, manutenção
+
+
+
