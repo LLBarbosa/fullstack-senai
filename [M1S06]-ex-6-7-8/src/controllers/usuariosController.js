@@ -12,17 +12,22 @@ const getOne = (req, resp) => {
 };
 
 const addUser = (req, resp) => { // exercício 7 - adicionando um usuário
-    const usuario = req.body;
-    const validReq = 'nome' in usuario && 'idade' in usuario && 'cargo' in usuario && 'senha' in usuario;
+    const validReq = 'nome' in req.body && 'idade' in req.body && 'cargo' in req.body && 'senha' in req.body;
     if (!validReq) {
         resp.status(406).json({ 'mensagem': 'Está faltando dados para concluir a operação' });
         return;
     }
-    if (usuario.idade < 21) {
+    if (req.body.idade < 21) {
         resp.status(422).json({ "mensagem": "Usuário não possui idade suficiente" });
         return;
     }
-    usuario.id = getId();
+    const usuario = {
+        id: getId(),
+        nome: req.body.nome,
+        idade: req.body.idade,
+        cargo: req.body.cargo,
+        senha: req.body.senha
+    };
     usuarios.push(usuario);
     resp.status(201).json({ "mensagem": "Criado com sucesso" });
 };
