@@ -1,0 +1,120 @@
+
+body {
+    background-color: #F0F0F0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 25px;
+    ;
+}
+
+p {
+    font-style: normal;
+    font-size: 16px;
+    
+    color: #B4B6C1;
+}
+
+a:link,
+a:visited {
+    color: #00A335;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #007527;
+}
+
+/*[M2S03] Ex 4 - Estilização botão:
+  Estilização de botão referente ao especificado em [M2S03] Exercícios.*/
+.botao-default {
+    width: 95%;
+    background-color: green;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 6px;
+}
+
+.botao-default:hover {
+    background-color: #016b01;
+}
+
+.container-principal {
+    display: flexbox;
+    text-align: center;
+    width: 400px;
+} 
+
+
+
+.texto-cabecalho {
+    text-align: center;
+    color: #2C2C2C
+
+}
+
+.container-formulario {
+    display: block;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+/*[M2S03] Ex 3 - Estilização input:
+    Estilização de input referente ao especificado em [M2S03] Exercícios.*/
+input {
+    width: 90%;
+    height: 25px;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #EBF0FA;
+    border-radius: 5px;
+    transition: background-color 0.4s;
+    color:#2C2C2C;
+    background-color: #FFFFFF;
+}
+
+input::placeholder {
+    font-size: 16px;
+    color: #B4B6C1;
+}
+
+input:hover {
+    background-color: #F5F5F5;
+    border-color: #ccc;
+}
+
+input:focus {
+    background-color: #ecffef;
+    border-color: #a8cfae;
+    outline: none;
+}
+
+.entrada-menor label,
+.entrada-menor input {
+    width: 40%;
+    display: flexbox;
+}
+
