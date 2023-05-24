@@ -1,3 +1,4 @@
+@import 'variaveis.css';
 
 body {
     background-color: #F0F0F0;
@@ -31,14 +32,14 @@ a:visited {
 }
 
 a:hover {
-    color: #007527;
+    color: #0075278a;
 }
 
 /*[M2S03] Ex 4 - Estilização botão:
   Estilização de botão referente ao especificado em [M2S03] Exercícios.*/
 .botao-default {
-    width: 95%;
-    background-color: green;
+    width: 85%;
+    background-color: #00A335;
     color: white;
     font-size: 18px;
     text-align: center;
@@ -52,13 +53,13 @@ a:hover {
     background-color: #016b01;
 }
 
+/*[M2S03] Ex 5 - Estilização box login / box cadastro:
+  Estilização de box login referente ao especificado em [M2S03] Exercícios.*/
 .container-principal {
     display: flexbox;
     text-align: center;
-    width: 400px;
+    width: 450px;
 } 
-
-
 
 .texto-cabecalho {
     text-align: center;
@@ -69,8 +70,8 @@ a:hover {
 .container-formulario {
     display: block;
     background: #FFFFFF;
-    border-radius: 10px;
-    padding: 20px;
+    border-radius: 8px;
+    padding: 10px;
 
 }
 
@@ -92,7 +93,7 @@ input {
     border: 1px solid #EBF0FA;
     border-radius: 5px;
     transition: background-color 0.4s;
-    color:#2C2C2C;
+    color: var(--black-1);
     background-color: #FFFFFF;
 }
 
@@ -103,13 +104,7 @@ input::placeholder {
 
 input:hover {
     background-color: #F5F5F5;
-    border-color: #ccc;
-}
-
-input:focus {
-    background-color: #ecffef;
-    border-color: #a8cfae;
-    outline: none;
+    border-color: #CCCCCC;
 }
 
 .entrada-menor label,

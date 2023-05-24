@@ -28,12 +28,13 @@
                     <input type="password" name="senha" id="senha" placeholder="Informe sua senha"
                         aria-label="Informe sua senha">
                 </fieldset>
-                <button class="botao-default" type="submit">Entrar</button>
+                <button role="button" aria-label="Fazer o login" class="botao-default" type="submit">Entrar</button>
             </form>
         </div>
         <div class="texto-links">
-            <p>Esqueceu sua senha? <a href="#">Redefinir senha.</a></p>
-            <p>Ainda não tem uma conta? <a href="register.html">Cadastre-se</a></p>
+            <p>Esqueceu sua senha? <a role="link" aria-label="Recupere o seu acesso" href="#">Redefinir senha.</a></p>
+            <!--  [M2S03] Ex 6 - Roteamento entre as telas: Criação do roteamento entre as telas, conforme especificado em [M2S03]-->
+            <p>Ainda não tem uma conta? <a role="link" aria-label="Faça o seu cadastro" href="register.html">Cadastre-se</a></p>
         </div>
     </div>
 </body>

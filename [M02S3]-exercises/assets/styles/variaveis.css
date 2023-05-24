@@ -1,0 +1,23 @@
+:root {
+    --color-text-1:#2C2C2C;
+    --background-white-1:#F0F0F0;
+    --gray-1:#B4B6C1;
+    --color-border-text-2: #EBF0FA;
+    --button-green-1:#00A335;
+    --button-green-2:#0075278a;
+
+
+}
+
+/* Cor de fundo: F0F0F0
+
+   Cor do botão / link ativo: 00A335
+
+   Cor da borda do input: EBF0FA
+
+   Cor do texto principal: 2C2C2C
+
+   Cor do texto secundário: B4B6C1
+
+   Cor do texto do input (placeholder): B4B6C1 */
+
