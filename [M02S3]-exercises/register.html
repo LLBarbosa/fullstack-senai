@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <title>Sign Up</title>
     <link rel="stylesheet" href="./assets/styles/style.css">
+
 </head>
 
 <body>
@@ -22,25 +23,30 @@
             <form class="sign-up-formulario">
                 <fieldset class="entrada-maior">
                     <label for="empresa"></label>
-                    <input type="text" name="empresa" id="empresa" placeholder="Empresa" aria-label="Insira o nome da empresa">
+                    <input type="text" name="empresa" id="empresa" placeholder="Empresa"
+                        aria-label="Insira o nome da empresa" required>
                     <label for="cnpj"></label>
-                    <input type="text" name="cnpj" id="cnpj" placeholder="CNPJ" aria-label="Insira o número do CNPJ">
+                    <input type="text" name="cnpj" id="cnpj" placeholder="CNPJ" aria-label="Insira o número do CNPJ"
+                        required>
                     <label for="responsavel"></label>
                     <input type="text" name="responsavel" id="responsavel" placeholder="Responsável"
-                        aria-label="Insira o nome do responsável">
+                        aria-label="Insira o nome do responsável" required>
                 </fieldset>
                 <fieldset class="entrada-menor">
                     <label for="email"></label>
-                    <input type="email" name="email" id="email" placeholder="E-mail" aria-label="Insira seu e-mail">
+                    <input type="email" name="email" id="email" placeholder="E-mail" aria-label="Insira seu e-mail"
+                        required>
                     <label for="telefone"></label>
-                    <input type="tel" name="telefone" id="telefone" placeholder="Telefone" aria-label="Insira seu telefone">
+                    <input type="tel" name="telefone" id="telefone" placeholder="Telefone"
+                        aria-label="Insira seu telefone" required>
                     <label for="senha"></label>
                     <input type="password" name="senha" id="senha" placeholder="Senha" aria-label="Insira sua senha">
-                    <label for="repeteSenha"></label>
+                    <label fr="repeteSenha"></label>
                     <input type="password" name="repeteSenha" id="repeteSenha" placeholder="Repita a senha"
                         aria-label="Repita a senha">
                 </fieldset>
-                <button role="button" aria-label="Crie sua conta" class="botao-default" type="submit">Criar conta</button>
+                <button role="button" aria-label="Crie sua conta" class="botao-default" type="submit">Criar
+                    conta</button>
             </form>
         </div>
         <div class="texto-links">
