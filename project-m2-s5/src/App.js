@@ -1,12 +1,23 @@
-import React from 'react';
-import './App.css';
-
+import Button from './components/Button';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import logoGuitar from './images/logoGuitar.png';
+import './styles/App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World!!</h1>
+        <Header />
+        <img src={logoGuitar} className="logo" alt="logo-guitar" />
+        <div> <Button value="Songs"/> 
+        </div>
+        <div>
+        <Button value="Contact"/>
 
+        </div>
+       
+       <Footer/>
+     
     </div>
   );
 }

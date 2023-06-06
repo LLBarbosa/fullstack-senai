@@ -1,0 +1,15 @@
+.Btn {
+    display: flex;
+    flex-direction: row;
+    width: 180px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0.5rem;
+    text-decoration: none;
+    background-color: beige;
+    font-size: 18px;
+}
+
+.Btn:hover {
+    background-color:navajowhite; 
+}
